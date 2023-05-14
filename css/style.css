@@ -1,0 +1,310 @@
+.linkedin-button, .tiktok-button, .instagram-button, .facebook-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.linkedin-button:hover, .tiktok-button:hover, .instagram-button:hover, .facebook-button:hover {
+  background-color: #333;
+}
+
+.facebook-button {
+  background-color: #3b5998;
+}
+
+.instagram-button {
+  background-color: #e4405f;
+}
+
+.tiktok-button {
+  background-color: #000;
+}
+
+.linkedin-button {
+  background-color: #0077b5;
+}
+
+.social-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+.social-buttons a + a {
+  margin-left: 10px;
+}
+
+header {
+  background-color: #4169E1;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: "Nabla", cursive;
+  font-size: xx-large;
+}
+
+main {
+  background-color: rgb(38, 38, 146);
+}
+
+.h2 {
+  font-family: "Nabla", cursive;
+  font-size: xx-large;
+}
+
+.explicacion {
+  font-family: "Press Start 2P", cursive;
+  font-size: x-large;
+  color: #ddd;
+}
+
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+.Primero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  background-color: azulcito;
+  padding: 10px;
+  text-align: center;
+}
+
+.subpage {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subpage-item {
+  flex-basis: 33.33%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+@media (max-width: 767px) {
+  .subpage-item {
+    flex-basis: 100%;
+  }
+}
+
+.subpage-item img {
+  width: 100%;
+  height: auto;
+}
+
+.subpage-item h2 {
+  margin-top: 10px;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation: fade-in 1s;
+}
+
+.Saturn {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  width: 500px;
+}
+
+.ASW {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  width: 280px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.GTAVC {
+  border: 1px solid #7c7c7c;
+  border-radius: 4px;
+  padding: 10px;
+  width: 230px;
+}
+
+.HK {
+  border: 1px solid #7c7c7c;
+  border-radius: 4px;
+  padding: 10px;
+  width: 230px;
+}
+
+.SMRPG {
+  border: 1px solid #7c7c7c;
+  border-radius: 4px;
+  padding: 10px;
+  width: 390px;
+}
+
+.youtube {
+  display: flex;
+  position: absolute;
+}
+
+.img-responsive {
+  border: 1px solid #7c7c7c;
+  border-radius: 4px;
+  padding: 5px;
+  width: 500px;
+}
+
+.img-responsive2 {
+  border: 1px solid #7c7c7c;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+}
+
+.img-responsive3 {
+  border: 1px solid #7c7c7c;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+}
+
+.img-responsive4 {
+  border: 1px solid #7c7c7c;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+}
+
+.img-responsive5 {
+  border: 1px solid #7c7c7c;
+  border-radius: 4px;
+  padding: 5px;
+  width: 400px;
+}
+
+.pixel {
+  font-family: "Press Start 2P", cursive;
+}
+
+body {
+  background-color: #333;
+}
+
+.wrapper {
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 6rem;
+  position: relative;
+  color: transparent;
+  margin-bottom: 0;
+  /*span {
+    display:block;
+    transition:all 0.3s;
+    &:hover:before {
+
+    }
+    &:hover:after {
+      top:14px;
+      cursor:pointer;
+    }
+  }*/
+}
+h1:before {
+  content: "Shatter";
+  position: absolute;
+  top: 0px;
+  left: 22px;
+  color: white;
+  clip-path: inset(0px 298px 0px 0px);
+  transition: all 0.3s;
+}
+h1 span:before {
+  content: "Shatter";
+  position: absolute;
+  top: 0px;
+  left: 22px;
+  color: white;
+  clip-path: inset(0px 200px 0px 154px);
+  transition: all 0.3s;
+}
+h1:after {
+  content: "Shatter";
+  position: absolute;
+  right: 24px;
+  top: 0px;
+  color: white;
+  clip-path: inset(0px 100px 0px 250px);
+  transition: all 0.5s;
+}
+h1 span:after {
+  content: "Shatter";
+  position: absolute;
+  right: 24px;
+  top: 0px;
+  color: white;
+  clip-path: inset(0px 0px 0px 353px);
+  transition: all 0.5s;
+}
+h1:hover:after {
+  top: 10px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.6);
+}
+h1:hover:before {
+  top: -10px;
+  left: 0px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.6);
+}
+h1:hover span:before {
+  top: 4px;
+  cursor: pointer;
+}
+h1:hover span:after {
+  top: -8px;
+  left: 30px;
+  cursor: pointer;
+}
+h1 .explicacion {
+  font-size: 1.4em;
+  font-stretch: 10px;
+  font-family: "Press Start 2P", cursive;
+}
+h1 .icono {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*# sourceMappingURL=style.css.map */
